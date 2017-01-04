@@ -20,7 +20,7 @@ include: ["pages", "thoughts"]
 future: true
 safe: false
 # This needs updated to work in production
-baseurl: "http://localhost:3000"
+baseurl: "http://greyfox33.github.io"
 repos:
 
 sass:
