@@ -1,0 +1,47 @@
+---
+permalink: /thoughts/
+layout: page
+title: Thoughts
+image: /assets/dist/img/1.jpg
+---
+
+  {% for post in paginator.posts %}
+    <article itemscope itemtype="http://schema.org/BlogPosting" class="usa-grid thoughts">
+        <div class="usa-width-one-third">
+          <img itemprop="image" itemscope="" itemtype="https://schema.org/ImageObject" src="{{ site.baseurl }}/{{ post.image }}" alt="{{ post.title }}" class="img-responsive">
+        </div>
+        <div class="usa-width-two-thirds">
+        <a href="{{ site.baseurl }}/{{ post.url}}"><h2>{{ post.title }}</h2></a>
+        <p>{{ post.excerpt | truncatewords: 30 }}</p>
+        </div>
+    </article>
+    <hr>
+  {% endfor %}
+  <nav class="pagination">
+    {% if paginator.total_pages > 1 %}
+    <ul>
+      {% if paginator.previous_page %}
+      <li class="page-prev"><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">Prev</a></li>
+      {% else %}
+
+      {% endif %}
+        <ul>
+      {% for page in (1..paginator.total_pages) %}
+        {% if page == paginator.page %}
+          <li><a href="javascript:void(0)" class="pagination_active">{{ page }}</a></li>
+        {% elsif page == 1 %}
+          <li><a href="{{ '/thoughts/' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a></li>
+        {% else %}
+          <li><a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a></li>
+        {% endif %}
+      {% endfor %}
+         </ul>
+      {% if paginator.next_page %}
+        <li class="page-next"><a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next</a></li>
+      {% else %}
+      {% endif %}
+    </ul>
+    {% endif %}
+    <br>
+    <button class="usa-button-big block-center"><a href="{{ site.baseurl }}/archives/" >View All Posts</a></button>
+  </nav>

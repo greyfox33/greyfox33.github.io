@@ -1,0 +1,95 @@
+---
+permalink: /
+layout: default
+title: Oak Island Technical Services
+---
+
+<div class="hero" style="background:url('{{ site.baseurl }}/assets/dist/img/hero.jpg')">
+  <div class="hero-content">
+    <h1>Oak Technical Services</h1>
+    <p>Skilled technical resources, and PMs to help manage your project.</p>
+  </div>
+</div>
+
+<div class="usa-grid services">
+  <h2 class="usa-heading text-center">Services</h2>
+  <p class="text-center">SKILLED TECHNICAL RESOURCES AND PROJECT MANGERS TO HELP MANAGE YOUR PROJECT</p>
+  <div class="usa-width-one-third services-container">
+    <img src="{{ site.baseurl }}/assets/dist/img/icon.png" alt="">
+    <h3>Project Management</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, officiis sunt neque facilis culpa molestiae necessitatibus delectus veniam provident.</p>
+  </div>
+  <div class="usa-width-one-third services-container">
+    <img src="{{ site.baseurl }}/assets/dist/img/icon.png" alt="">
+    <h3>Agile Development</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, officiis sunt neque facilis culpa molestiae necessitatibus delectus veniam provident.</p>
+  </div>
+    <div class="usa-width-one-third services-container">
+    <img src="{{ site.baseurl }}/assets/dist/img/icon.png" alt="">
+    <h3>Legacy Modernization</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, officiis sunt neque facilis culpa mole. To really know legacy modernization, you need to spend some time in the trenches working with technologies like CICS, IDMS, DB2, ADABAS -- and the people who support them</p>
+  </div>
+</div>
+
+<div class="banner-bar">
+  <div class="usa-grid">
+    <div class="usa-width-one-fourth">
+      <img src="{{ site.baseurl }}/assets/dist/img/pmp.png" alt="PMP" class="block-center">
+    </div>
+    <div class="usa-width-one-fourth">
+      <img src="{{ site.baseurl }}/assets/dist/img/java-logo.png" alt="Java" class="block-center">
+    </div>
+    <div class="usa-width-one-fourth">
+      <img src="{{ site.baseurl }}/assets/dist/img/micro.png" alt="Microsoft" class="block-center">
+    </div>
+    <div class="usa-width-one-fourth">
+      <img src="{{ site.baseurl }}/assets/dist/img/evolve.png" alt="Evolveware" class="block-center">
+    </div>
+  </div>
+</div>
+
+<div class="blog-container">
+  <div class="usa-grid">
+    <h2 class="usa-heading text-center">LATEST BLOGS</h2>
+    <p class="text-center">WANT TO STAY INFORMED - CHECK OUR BLOG FOR THE LATEST INFO</p>
+    <div class="cards">
+      {% for post in site.posts limit:3 %}
+      <div class="card">
+        <div class="card-image">
+          <img src="{{ site.baseurl }}/{{ post.image }}" alt="">
+        </div>
+        <div class="card-header">
+          {{ post.title }}
+        </div>
+        <div class="card-copy">
+          <p>{{ post.excerpt }}</p>
+          <a href="{{ site.baseurl }}/{{ post.url }}" class="block-center text-center">READ MORE</a>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+    <button class="block-center usa-button usa-button-big"><a href="{{ site.baseurl }}/thoughts/">VIEW ALL POSTS</a></button>
+  </div>
+</div>
+
+<div class="usa-grid" id="contact">
+  <div class="usa-grid">
+    <h2 class="usa-heading text-center">CONTACT</h2>
+    <p class="text-center">HAVE QUESTIONS? FEEL FREE TO DROP US A LINE</p>
+    <form class="cf">
+      <div class="half left cf">
+        <input type="text" id="input-name" placeholder="Name">
+        <input type="email" id="input-email" placeholder="Email address">
+        <input type="text" id="input-subject" placeholder="Subject">
+      </div>
+      <div class="half right cf">
+        <textarea name="message" type="text" id="input-message" placeholder="Message" rows="12"></textarea>
+      </div>
+      <br>
+      <div class="cf"></div>
+      <button type="submit" value="Submit" id="input-submit" class="usa-button-big block-center">SUBMIT</button>
+    </form>
+  </div>
+</div>
+
+
