@@ -17,8 +17,8 @@
 <!-- Title and meta description
 ================================================== -->
 
-  <title>Oak Technical Services | Experience</title>
-  <meta property="og:title" content="Oak Technical Services | Experience" />
+  <title>Oak Technical Services | Open Source Complexity</title>
+  <meta property="og:title" content="Oak Technical Services | Open Source Complexity" />
 
 
 
@@ -26,7 +26,7 @@
   <meta property="og:description" content="" />
 
 
-  <link rel="canonical" href="/experience/" />
+  <link rel="canonical" href="/thoughts/open-source-complexity/" />
 
 <!--[if lt IE 9]>
   <script src="http://www.oakts.com/assets/js/vendor/html5shiv.js"></script>
@@ -44,7 +44,7 @@
 
   </head>
 
-  <body class="page-experience ">
+  <body class="page-open-source-complexity ">
   
   <a class="usa-skipnav" href="#main-content">Skip to main content</a>
   <header class="usa-header usa-header-basic" role="banner">
@@ -93,37 +93,70 @@
   <main id="main-content"></main>
 
 
-    <div class="hero hero-sm" style="background:url('http://www.oakts.com/assets/dist/img/1.jpg')">
-  <div class="hero-content">
-    <h1>Experience</h1>
-  </div>
-</div>
-
-<div class="usa-grid post-container">
+    <div class="usa-grid post-container">
 	<div class="usa-grid">
-		<p>The project portfolio for OTS includes the current active projects:</p>
+  	<h1 class="heading">Open Source Complexity</h1>
+    <p>IBM. System Integrators. Now State/Fed government is supposed to build solutions using both open source software components, as well as ensure that solutions are available for other gov entities to reuse under open source licenses.</p>
 
-<h2 id="child-welfare-system---new-system-cws-ns">Child Welfare System - New System (CWS-NS)</h2>
-<p>OTS is providing system architecture, project management, and procurement assistance to this project that is the collaboration between California Department of Social Services (CDSS) and the Office of Systems Integration. The CWS-NS project is a showcase for agile development in the state, and is arguably the largest government project in the country to exclusively use the agile (scrum) methodology.</p>
+<p>This is a good thing. But these open source components are complex. In the old world, a government entity might either
+a) pay a system integrator to build a “custom” solution (which often used open source components!). The SI would shield the gov entity from the complexity of the piece parts
+b) purchase an integrated system (e.g. SAP) and pay a license and support costs that effectively shielded the gov entity from the complexity.</p>
 
-<h2 id="calstrs">CalSTRS</h2>
-<p>Business analysis and testing resources are currently onsite at CalSTRS assisting in the huge effort to modernize CalSTRS pension (and numerous associated) systems.</p>
+<p>Those paths were both costly, and inflexible, but relatively safe (or at least the illusion of safety was preserved). But with increased calls for flexibility (i.e. change) alternatives have been forced to the fore, and one of those options is gov entities rolling their own using open source.</p>
 
-<h2 id="calheers">CalHEERS</h2>
-<p>The CalHEERS project is moving out of active development and into maintenance. This huge and highly visible state project is utilizing OTS resources to assist with the procurement strategy needed to make this transition as numerous contracts are being re-procured and replaced.</p>
+<p>If you are a gov entity contemplating this, and your technical team is solid and stable, be aware that the tackling the full tech stack in an open sourc world is not for the faint of heart.</p>
 
-<p>Other state project and departments that OTS has worked with:</p>
+<p>For example, lets take a java development stack that uses React as the front end:</p>
 
-<h2 id="state-of-calilfornia-employment-development-department--unemployment-insurance">State of Calilfornia, Employment Development Department – Unemployment Insurance</h2>
-<p>Currently providing System Engineering and System Architectural Guidance to the EDD. This $70M project includes implementing a SOA-based application that provides a common infrastructure to both an IVR and Internet-based suite of applications. OTS has assisted in the procurement process through the successful signing of vendors for both (call center and legacy modernization) sub projects, as well as assisted in the implementation. The call center portion of the project is scheduled to go live in June of 2010. This call center will utilize a custom built IVR built on the Microsoft .NET/WCF platform, and will seamlessly work with a Verizon hosted, Genesys-based Hosted Intelligent Call Routing Engine (HICR) system.</p>
+<table>
+  <tbody>
+    <tr>
+      <td>Dev tools</td>
+      <td>Testing Software</td>
+      <td>DevOps software</td>
+    </tr>
+    <tr>
+      <td>Java</td>
+      <td>Junit</td>
+      <td>Jenkins</td>
+    </tr>
+    <tr>
+      <td>Eclipse</td>
+      <td>Jmeter</td>
+      <td>Github</td>
+    </tr>
+    <tr>
+      <td>Maven</td>
+      <td>Jmeter</td>
+      <td>Git</td>
+    </tr>
+    <tr>
+      <td>Spring</td>
+      <td>Selenium</td>
+      <td>Ansible</td>
+    </tr>
+    <tr>
+      <td>React</td>
+      <td> </td>
+      <td>Chef</td>
+    </tr>
+    <tr>
+      <td>Gulp</td>
+      <td> </td>
+      <td>AWS Cli</td>
+    </tr>
+  </tbody>
+</table>
 
-<h2 id="state-of-california-employment-development-department--disability-insurance">State of California, Employment Development Department – Disability Insurance</h2>
-<p>OTS worked as a sub-contractor on the $50M DIA project, leading the requirements development effort and providing expertise in the development of the DIA RFP. The RFP was successfully released, and a vendor chosen and signed in January of 2010.</p>
+<p>Your development team will need to become experts in all of these tools and be able to manage version dependencies between them. Definitely doable, but not for the faint of heart!</p>
 
-<h2 id="innovate-motorsports">Innovate Motorsports</h2>
-<p>OTS provided project management and technical expertise to build a customer facing e-commerce system (www.innovatemotorsports.com) from the ground up. This project, hosted at Rackspace on a dedicated server, included a shopping cart that integrated with a manufacturing and order processing system through an internet based interface. The site has been processing over $1M/yr in orders with no security breaches and no unplanned downtime.</p>
+<p>For a gov entity considering this, a couple thing to think about
+- Start small to test it out, but a challenge with starting small is that if you lose a few key people, your plan to move to open source might be crippled.
+- Evaluate the tools/components needed for your Minimum Viable Product (MVP) and develop expertise in those before adding all of your components.
+- When considering and choosing tools for which there are multiple options, look for the ones with the active communities and support. Software where the last bug release was in 2013 (for example) should be avoided.</p>
 
-	</div>
+
+  </div>
 </div>
 
 
