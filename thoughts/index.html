@@ -1,0 +1,20 @@
+---
+permalink: /thoughts/
+layout: page
+title: Thoughts
+image: /assets/dist/img/1.jpg
+---
+
+  {% for post in paginator.posts %}
+    <article itemscope itemtype="http://schema.org/BlogPosting" class="usa-grid thoughts">
+        <div class="usa-width-one-third">
+          <img itemprop="image" itemscope="" itemtype="https://schema.org/ImageObject" src="{{ site.baseurl }}/{{ post.image }}" alt="{{ post.title }}" class="img-responsive">
+        </div>
+        <div class="usa-width-two-thirds">
+        <a href="{{ site.baseurl }}/{{ post.url}}"><h2>{{ post.title }}</h2></a>
+        <p>{{ post.excerpt | truncatewords: 30 }}</p>
+        </div>
+    </article>
+    <hr>
+  {% endfor %}
+

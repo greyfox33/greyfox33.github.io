@@ -1,0 +1,93 @@
+---
+permalink: /
+layout: default
+title: Oak Technical Services
+---
+
+<div class="hero" style="background:url('{{ site.baseurl }}/assets/dist/img/hero.jpg')">
+  <div class="hero-content">
+    <h1>Oak Technical Services</h1>
+    <p>Folks who can bring state projects to fruition</p>
+  </div>
+</div>
+
+<div class="usa-grid services">
+  <h2 class="usa-heading text-center">Services</h2>
+  <p class="text-center">SKILLED TECHNICAL RESOURCES AND PROJECT MANGERS TO HELP MANAGE YOUR PROJECT</p>
+  <div class="usa-width-one-third services-container">
+    <img src="{{ site.baseurl }}/assets/dist/img/icon.png" alt="">
+    <h3>Project Management</h3>
+    <p>OTS knows how to manage projects -- demonstrated on some of California's largest and most complex projects. Technology is not the most difficult challenge to overcome on the largest projects, and we understand this. </p>
+  </div>
+  <div class="usa-width-one-third services-container">
+    <img src="{{ site.baseurl }}/assets/dist/img/icon.png" alt="">
+    <h3>Agile Development</h3>
+    <p>Managing a single agile team is hard, but try integrating multiple dependant teams. OTS is actively doing this on California's Child Welfare project, arguably the largest agile government project in the country.</p>
+  </div>
+    <div class="usa-width-one-third services-container">
+    <img src="{{ site.baseurl }}/assets/dist/img/icon.png" alt="">
+    <h3>Legacy Modernization</h3>
+    <p>OTS has experience with legacy modernization that can translate into success for your most difficult modernization projects.</p>
+  </div>
+</div>
+
+
+  <div class="usa-grid banner-bar">
+    <div class="usa-width-one-fourth">
+      <img src="{{ site.baseurl }}/assets/dist/img/pmp.png" alt="PMP" class="block-center">
+    </div>
+    <div class="usa-width-one-fourth">
+      <img src="{{ site.baseurl }}/assets/dist/img/java-logo.png" alt="Java" class="block-center">
+    </div>
+    <div class="usa-width-one-fourth">
+      <img src="{{ site.baseurl }}/assets/dist/img/micro.png" alt="Microsoft" class="block-center">
+    </div>
+    <div class="usa-width-one-fourth">
+      <img src="{{ site.baseurl }}/assets/dist/img/evolve.png" alt="Evolveware" class="block-center">
+    </div>
+  </div>
+
+<div class="blog-container">
+  <div class="usa-grid">
+    <h2 class="usa-heading text-center">LATEST BLOGS</h2>
+    <p class="text-center">WANT TO STAY INFORMED - CHECK OUR BLOG FOR THE LATEST INFO</p>
+    <div class="cards">
+      {% for post in site.posts limit:3 %}
+      <div class="card">
+        <div class="card-image">
+          <img src="{{ site.baseurl }}/{{ post.image }}" alt="">
+        </div>
+        <div class="card-header">
+          {{ post.title }}
+        </div>
+        <div class="card-copy">
+          <p>{{ post.excerpt }}</p>
+          <a href="{{ site.baseurl }}/{{ post.url }}" class="block-center text-center">READ MORE</a>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+    <button class="block-center usa-button usa-button-big"><a href="{{ site.baseurl }}/thoughts/">VIEW ALL POSTS</a></button>
+  </div>
+</div>
+
+<div class="usa-grid" id="contact">
+  <div class="usa-grid">
+    <h2 class="usa-heading text-center">CONTACT</h2>
+    <p class="text-center">HAVE QUESTIONS? FEEL FREE TO DROP US A LINE</p>
+    <form class="cf" action="https://formspree.io/robbt33@yahoo.com"
+      method="POST">
+      <div class="half left cf">
+        <input type="text" id="input-name" placeholder="Name" name="name">
+        <input type="email" id="input-email" placeholder="Email address" name="_replyto">
+        <input type="text" id="input-subject" placeholder="Subject">
+      </div>
+      <div class="half right cf">
+        <textarea name="message" type="text" id="input-message" placeholder="Message" rows="12"></textarea>
+      </div>
+      <br>
+      <div class="cf"></div>
+      <button type="submit" value="Send" id="input-submit" class="usa-button-big block-center">SUBMIT</button>
+    </form>
+  </div>
+</div>

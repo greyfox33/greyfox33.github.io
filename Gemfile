@@ -1,0 +1,12 @@
+# A sample Gemfile
+source "https://rubygems.org"
+ruby "2.2.6"
+# gem "rails"
+gem "jekyll", "~>3.1.0"
+gem "jekyll-archives", "~>2.0"
+gem "jekyll-sitemap", "~>0.8"
+gem "jekyll-paginate"
+gem "rake"
+gem "net-ssh"
+gem "net-ssh-telnet"
+gem "html-proofer"
