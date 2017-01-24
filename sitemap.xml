@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>/thoughts/open-source-complexity/</loc>
+<lastmod>2017-01-23T00:00:00-08:00</lastmod>
+</url>
+<url>
+<loc>/thoughts/legacy-revolution/</loc>
+<lastmod>2017-01-22T00:00:00-08:00</lastmod>
+</url>
+<url>
+<loc>/thoughts/first-blog-post/</loc>
+<lastmod>2016-11-01T00:00:00-07:00</lastmod>
+</url>
+<url>
+<loc>/archives/</loc>
+</url>
+<url>
+<loc>/company/</loc>
+</url>
+<url>
+<loc>/experience/</loc>
+</url>
+<url>
+<loc>/</loc>
+</url>
+<url>
+<loc>/thoughts/</loc>
+</url>
+</urlset>
