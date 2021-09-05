@@ -1,38 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url>
-<loc>/thoughts/agile-status-communication/</loc>
-<lastmod>2018-07-01T00:00:00-07:00</lastmod>
-</url>
-<url>
-<loc>/thoughts/legacy-revolution-part2/</loc>
-<lastmod>2017-06-24T00:00:00-07:00</lastmod>
-</url>
-<url>
-<loc>/thoughts/legacy-revolution/</loc>
-<lastmod>2017-01-24T00:00:00-08:00</lastmod>
-</url>
-<url>
-<loc>/thoughts/open-source-complexity/</loc>
-<lastmod>2017-01-23T00:00:00-08:00</lastmod>
-</url>
-<url>
-<loc>/thoughts/first-blog-post/</loc>
-<lastmod>2016-11-01T00:00:00-07:00</lastmod>
-</url>
-<url>
-<loc>/archives/</loc>
-</url>
-<url>
-<loc>/company/</loc>
-</url>
-<url>
-<loc>/experience/</loc>
-</url>
-<url>
-<loc>/</loc>
-</url>
-<url>
-<loc>/thoughts/</loc>
-</url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  
+  <url>
+    <loc>http://localhost:4000/thoughts/agile-status-communication/</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/thoughts/legacy-revolution-part2/</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/thoughts/legacy-revolution/</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/thoughts/open-source-complexity/</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/thoughts/first-blog-post/</loc>
+  </url>
+  
+  
+
+
+  
+  
+  <url>
+    <loc>http://localhost:4000/archives/</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/company/</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/experience/</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/thoughts/</loc>
+  </url>
+  
+  
+  
+  
 </urlset>
