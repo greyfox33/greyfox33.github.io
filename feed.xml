@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title></title>
+        <description></description>
+        <link>http://localhost:4000/</link>
+        <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+        <pubDate>Sun, 12 Sep 2021 16:08:56 -0700</pubDate>
+        <lastBuildDate>Sun, 12 Sep 2021 16:08:56 -0700</lastBuildDate>
+        <generator>Jekyll v3.9.0</generator>
+        
+        <item>
+            <title>Communicating Project Progress</title>
+            <description>&lt;p&gt;We have been working on a large state project that has chosen to use an Agile SDLC. Two challenges I’ll discuss today are&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Stakeholders haven’t been trained in agile.&lt;/li&gt;
+  &lt;li&gt;Tools for communicating agile progress are poor.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;stakeholders-and-communication&quot;&gt;Stakeholders and communication&lt;/h2&gt;
+
+&lt;p&gt;The project I’m currently working on has struggled with coordinating the work of multiple agile teams. We are using the Scaled Agile framework (SAF) and one area of difficulty has been communicating the “schedule” to outside stakeholders. While these people have extensive experience managing large government IT projects, many of them have no experience managing or providing stakeholder support to an agile project.&lt;/p&gt;
+
+&lt;p&gt;There are things about Agile projects that make managers nervous:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Working software is prioritized over documentation, and people are prioritized over process. Managers at all levels want the benefits of Agile, but have to understand that they should not expect the documentation and the rigorously defined processes – particularly at the project manager level – that they are used to on a waterfall project. This is an underestimated change for managers moving to Agile&lt;/li&gt;
+  &lt;li&gt;Scope can change, as agile projects will learn from the customer and adapt as needed. With changing scope, you have less predictability in the schedule.&lt;/li&gt;
+  &lt;li&gt;There is no Gantt chart. For many government projects, the Gantt chart is the foundation and standard for communicating traditional waterfall project progress.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;These managers need training and a “change champion” to help them understand agile, and to set expectations as to how stakeholders should be participating and measuring the progress, given an agile approach.&lt;/p&gt;
+
+&lt;h2 id=&quot;tools-for-communicating-agile-progress&quot;&gt;Tools for Communicating Agile Progress&lt;/h2&gt;
+
+&lt;p&gt;As mentioned above, in an Agile project, there is no Gantt chart. I have yet to see a corresponding agile tool that tells managers a) here is how we are doing, and b) here is when we expect to be done. This is particularly visible on large projects with multiple project teams.&lt;/p&gt;
+
+&lt;p&gt;Let’s compare the processes.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Condensed description of a waterfall project&lt;/em&gt;: W-team gets together, decides on scope, 
+builds comprehensive design doc and project plan describing the scope, 
+schedule and cost. The project plan - usually in the form of a Gantt chart – is provided to stakeholders based on their need.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Condensed description of an agile project&lt;/em&gt;: A-team gets together, decides on scope, builds backlog of stories, assigns stories to epics, and epics assigned to program intervals (PI).  With a tool like Jira, dashboards, burn-down charts, and other reports are given to stakeholders, and estimates of when the project will complete can be drafted, along with a corresponding cost.&lt;/p&gt;
+
+&lt;p&gt;One of the problems with the waterfall project is that the Gantt chart is only a predictor of future performance.
+Since most IT projects are not duplicates of previous projects, and the teams assembled to staff the project have not worked together before, the estimates for duration and effort are imperfect. The Gantt only gives the illusion of control and predictability. However, it is what government agencies have used for decades to communicate plans and progress.&lt;/p&gt;
+
+&lt;p&gt;But Agile - when it comes to providing project status to stakeholders - is in no better position. 
+There is no standard report or mechanism to show stakeholders project progress. 
+And adding fuel to the fire is the agile mantra that with each sprint, customer feedback will be factored into future development, basically stating that the current “plan” will change tomorrow, as the scope is dynamic.&lt;/p&gt;
+
+&lt;p&gt;Managers running an agile project will need to work with stakeholders (up the chain) 
+to find acceptable ways to communicate “the plan”, and to ensure stakeholders understand 
+how to read and interpret these new communication tools. Additionally, managers will need to train scrum masters and agile teams
+(down the chain) to provide adequate inputs/forecasts needed to assemble the components that 
+make up the agreed upon way of communicating “the plan”.&lt;/p&gt;
+</description>
+            <pubDate>Sun, 01 Jul 2018 00:00:00 -0700</pubDate>
+            <link>http://localhost:4000/thoughts/agile-status-communication/</link>
+            <guid isPermaLink="true">http://localhost:4000/thoughts/agile-status-communication/</guid>
+            
+            
+        </item>
+        
+        <item>
+            <title>Legacy Modernization Revolution (Part 2)</title>
+            <description>&lt;p&gt;In part 1 I discussed how small agile teams can be procured (see the state ADPQ process) to come onto a project and immediately start working with state employees to build working software, learning about the domain and help the state learn about agile. Three other factors that have helped spur the legacy modernization revolution are open source, cloud, DevOps.&lt;/p&gt;
+
+&lt;h2 id=&quot;open-source&quot;&gt;Open Source&lt;/h2&gt;
+
+&lt;p&gt;We are seeing the model of using open source work well. Possible steps for you to try:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Identify a problem that your team might consider developing a customer solution for. (e.g. we have 40 services, but only want to expose 10 to the outside world)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Find solid open source project with an active community
+(e.g. Kong)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Do a proof of concept to see if it meets your needs&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Find a vendor who will provide support. (e.g. Mashape for Kong)&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;This helps accelerate the development process by allowing dev teams to pick and choose best of breed tools, integrate them, and avoid having to develop and test these tools themselves.&lt;/p&gt;
+
+&lt;p&gt;Using best of breed open source tools provides a frictionless (little cost to experiment with, no licensing issues) method to reuse software that has already been built and tested elsewhere, thereby accelerating the development process.&lt;/p&gt;
+
+&lt;h2 id=&quot;cloud&quot;&gt;Cloud&lt;/h2&gt;
+
+&lt;p&gt;Using the cloud is just a different way of getting servers, networks, and databases (aka infrastructure), right?&lt;/p&gt;
+
+&lt;p&gt;Yes and no.&lt;/p&gt;
+
+&lt;p&gt;Yes – it allows project teams to get servers much more quickly than historically possible. The project is not held hostage while server needs are defined, orders placed, deliveries occur, and (finally) servers are placed into service. Now, new servers, networks, and other infrastructure can be procured in minutes via a cloud console, or (better) through Ansible code.&lt;/p&gt;
+
+&lt;p&gt;No – this use of the cloud also involves writing a new type of code that actually defines the infrastructure. So you have the software that is the application, and you have the software that is the infrastructure.&lt;/p&gt;
+
+&lt;p&gt;Since the infrastructure can become a series of software componets (e.g. Ansible scripts, Jenkins scripts, Docker containers, etc.) a single environment can be spun up quickly and torn down just as quickly. Refactor, and do it again. 
+Infrastructure is no longer a treasured component of the project, meticulously cared for and fed. Infrastructure becomes like cattle, not pets.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/img/cattle.jpg&quot; alt=&quot;cattle, not pets&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;devops&quot;&gt;DevOps&lt;/h2&gt;
+
+&lt;p&gt;Through software (e.g. Amazon Cloudformation scripts) environments can be defined, applications deployed, systems monitored. This requires a new type of engineer, someone who knows infrastructure and someone who knows software. These Development Operations (DevOPs) people are the new breed of system admins – unlike the system admins of days gone by, a DevOps person is enmeshed in the software development process.&lt;/p&gt;
+</description>
+            <pubDate>Sat, 24 Jun 2017 00:00:00 -0700</pubDate>
+            <link>http://localhost:4000/thoughts/legacy-revolution-part2/</link>
+            <guid isPermaLink="true">http://localhost:4000/thoughts/legacy-revolution-part2/</guid>
+            
+            
+        </item>
+        
+        <item>
+            <title>Legacy Modernization Revolution (Part 1)</title>
+            <description>&lt;p&gt;Here in California, most legacy modernization state government projects follow this pattern:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;A state team is tasked with constructing an RFP. The RFP will include all known requirements, is set as a “fixed price” contract with a price tag that can range from $200M to $1B.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;The projects are targeted towards the large System Integrator that has the resources to
+    &lt;ul&gt;
+      &lt;li&gt;absorb the risk of a $100M+ project and&lt;/li&gt;
+      &lt;li&gt;participate in a long and expensive proposal process. This takes 6-24 months.&lt;/li&gt;
+      &lt;li&gt;The requirements need to be created, refined, and then the approval process starts. An SPR (financial forecast) may be triggered that will require additional review time.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;The RFP is released and can take 6-18 months to award a contract. Valid questions about imperfect requirements (OK, I’ve betrayed my bias now) require addendums that extend the selection process. If everything goes well, a vendor is chosen and awarded a contract. If none of the other bidders protest (which will delay the contract award) a start date is set.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;OK, so we are 2-3 yrs into the process. No working software has been built.&lt;/p&gt;
+
+&lt;p&gt;So what’s changing in legacy modernization that might improve this?&lt;/p&gt;
+
+&lt;h2 id=&quot;agile-development&quot;&gt;Agile development&lt;/h2&gt;
+&lt;p&gt;Small teams can be hired to build working software that both the state and vendor teams can learn from. Following an “encapsulate and retire” pattern, teams can identify small chunks of relatively self-contained functionality from a legacy system, duplicate an improved version of it on a modern platform, and migrate users off of that piece of the legacy.&lt;/p&gt;
+
+&lt;p&gt;(As a side note, I’m calling this pattern “encapsulate and retire”. Its really the &lt;a href=&quot;https://www.martinfowler.com/bliki/StranglerApplication.html&quot;&gt;strangler pattern&lt;/a&gt;, but when you are working with the folks who have lived with the legacy software for years, talking about strangling the system they have cared for is macabre, borderline insensitive.)&lt;/p&gt;
+
+&lt;p&gt;The agile process is a big help here. The normal benefits of helping analysts and developers learn more about the domain occurs via the agile “working software” feedback loop. But a secondary, more subtle benefit is that it helps legacy users and managers move along the OCM curve quickly. When they see working software, the fears of change are balanced with the opportunities to control the new direction. Adoption occurs with less difficulty.&lt;/p&gt;
+
+&lt;p&gt;In Part 2 (coming soon), I’ll discuss the impacts of cloud, devops, and open source as new opportunities to revolutionize the legacy modernization process.&lt;/p&gt;
+
+&lt;!---
+With small variation, most projects have been
+  -- legacy development revolution
+    	-- encapsulation and retirement
+ 	-- agile development
+	-- cloud for infrastructure
+	-- open source
+	-- DevOPs
+
+---&gt;
+</description>
+            <pubDate>Tue, 24 Jan 2017 00:00:00 -0800</pubDate>
+            <link>http://localhost:4000/thoughts/legacy-revolution/</link>
+            <guid isPermaLink="true">http://localhost:4000/thoughts/legacy-revolution/</guid>
+            
+            
+        </item>
+        
+        <item>
+            <title>Open Source Complexity</title>
+            <description>&lt;p&gt;Back in the 70s and 80s, it was IBM and mainframe. Then Client Server done by system integrators like Accenture, Deloitte and EDS. Now State/Fed government departments are supposed to build solutions using both open source software components, as well as ensure that solutions are available for other gov entities to reuse under open source licenses.&lt;/p&gt;
+
+&lt;p&gt;This is a good thing. But these open source components are complex. In the old world, a government entity might either
+a) pay a system integrator to build a “custom” solution (which often used open source components!). The SI would shield the gov entity from the complexity of the piece parts
+b) purchase an integrated system (e.g. SAP) and pay a license and support costs that effectively shielded the gov entity from the complexity.&lt;/p&gt;
+
+&lt;p&gt;Those paths were both costly, and inflexible, but relatively safe (or at least the illusion of safety was preserved). But with increased calls for flexibility (i.e. change) alternatives have been forced to the fore, and one of those options is gov entities rolling their own using open source.&lt;/p&gt;
+
+&lt;p&gt;If you are a gov entity contemplating this, and your technical team is solid and stable, be aware that the tackling the full tech stack in an open sourc world is not for the faint of heart.&lt;/p&gt;
+
+&lt;p&gt;For example, lets take a java development stack that uses React as the front end:&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Dev tools&lt;/td&gt;
+      &lt;td&gt;Testing Software&lt;/td&gt;
+      &lt;td&gt;DevOps software&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Java&lt;/td&gt;
+      &lt;td&gt;Junit&lt;/td&gt;
+      &lt;td&gt;Jenkins&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Eclipse&lt;/td&gt;
+      &lt;td&gt;Jmeter&lt;/td&gt;
+      &lt;td&gt;Github&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Maven&lt;/td&gt;
+      &lt;td&gt;Jmeter&lt;/td&gt;
+      &lt;td&gt;Git&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Spring&lt;/td&gt;
+      &lt;td&gt;Selenium&lt;/td&gt;
+      &lt;td&gt;Ansible&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;React&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;Chef&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Gulp&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;AWS Cli&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Your development team will need to become experts in all of these tools and be able to manage version dependencies between them. Definitely doable, but not for the faint of heart!&lt;/p&gt;
+
+&lt;p&gt;For a gov entity considering this, a couple thing to think about&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Start small to test it out, but a challenge with starting small is that if you lose a few key people, your plan to move to open source might be crippled.&lt;/li&gt;
+  &lt;li&gt;Evaluate the tools/components needed for your Minimum Viable Product (MVP) and develop expertise in those before adding all of your components.&lt;/li&gt;
+  &lt;li&gt;When considering and choosing tools for which there are multiple options, look for the ones with the active communities and support. Software where the last bug release was in 2013 (for example) should be avoided.&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+            <pubDate>Mon, 23 Jan 2017 00:00:00 -0800</pubDate>
+            <link>http://localhost:4000/thoughts/open-source-complexity/</link>
+            <guid isPermaLink="true">http://localhost:4000/thoughts/open-source-complexity/</guid>
+            
+            
+        </item>
+        
+        <item>
+            <title>Microservices -- A Wolf in Sheeps Clothing</title>
+            <description>&lt;p&gt;“IT infrastructure divides like a cell every time a new standard of abstraction is universally adopted [e.g. mainframe to web to now, microservices]. Each successful iteration has brought with it a new era of computing where time to value decreased, cost of development decreased and a new set of large market cap companies were born.” - Matt Miller, WSJ&lt;/p&gt;
+
+&lt;p&gt;I disagree with this. For development teams with unlimited funds and top-tier talent, the move from mainframe to web unquestionably brought:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Time to value decreased – true&lt;/li&gt;
+  &lt;li&gt;Cost of development decreased – true&lt;/li&gt;
+  &lt;li&gt;A new set of large cap companies were born – true&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;But for your average development shop, with a limited budget and average talent, the move from mainframe to web brought an expanded stack of required technologies. This, along with the greater security requirements crippled development productivity, raising the cost of development. Not decreasing the cost of development, but raising it. So what will a move to microservices bring?&lt;/p&gt;
+
+&lt;p&gt;First, what does microservices mean? Here’s my definition:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;large applications are broken down into small, loosely coupled and composable autonomous applications.&lt;/li&gt;
+  &lt;li&gt;A team can use containers and other cloud offerings to more quickly change and deploy these autonomous pieces. Instead of 4 releases a year, a team can deploy smaller app changes every week or more.
+So it’s both an architecture as well as a development process.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Microservices architecture makes sense, particularly as another test of development capability, a hurdle that separates the men from the boys. It’s an arms race. Or another way of looking at it is that in the highly competitive web development market, microservices expertise is a barrier to entry for the upstarts.&lt;/p&gt;
+
+&lt;p&gt;While that is all well and good in the private sector, the public sector cannot meet the prerequisites for a move to microservices&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Does your team have experts in REST and API-design to build the new service contracts?&lt;/li&gt;
+  &lt;li&gt;Does your team have folks who really understand how transactions will be performed in a potential move to microservices?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;And the real butt-kicker&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Does your team already do continuous integration and deployment of their monolithic app?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Explore the technologies, but if I’m Joe Public-Sector development manager, I need to work on the continuous integration question first. If I can take my huge data model app and nail doing continuous integration and deployment to a cloud environment, scaling things up and down, I can claim I’m microservice enabled! I just happen to have one really big microservice!&lt;/p&gt;
+</description>
+            <pubDate>Tue, 01 Nov 2016 00:00:00 -0700</pubDate>
+            <link>http://localhost:4000/thoughts/first-blog-post/</link>
+            <guid isPermaLink="true">http://localhost:4000/thoughts/first-blog-post/</guid>
+            
+            
+        </item>
+        
+    </channel>
+</rss>

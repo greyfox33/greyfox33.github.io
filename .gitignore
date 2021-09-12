@@ -1,1 +1,3 @@
 *.sh
+package.json
+package-lock.json
