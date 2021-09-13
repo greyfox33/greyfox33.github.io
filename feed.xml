@@ -3,10 +3,10 @@
     <channel>
         <title></title>
         <description></description>
-        <link>http://localhost:4000/</link>
-        <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 12 Sep 2021 16:08:56 -0700</pubDate>
-        <lastBuildDate>Sun, 12 Sep 2021 16:08:56 -0700</lastBuildDate>
+        <link>www.oakts.com/</link>
+        <atom:link href="www.oakts.com/feed.xml" rel="self" type="application/rss+xml"/>
+        <pubDate>Sun, 12 Sep 2021 20:58:46 -0700</pubDate>
+        <lastBuildDate>Sun, 12 Sep 2021 20:58:46 -0700</lastBuildDate>
         <generator>Jekyll v3.9.0</generator>
         
         <item>
@@ -58,8 +58,8 @@ how to read and interpret these new communication tools. Additionally, managers 
 make up the agreed upon way of communicating “the plan”.&lt;/p&gt;
 </description>
             <pubDate>Sun, 01 Jul 2018 00:00:00 -0700</pubDate>
-            <link>http://localhost:4000/thoughts/agile-status-communication/</link>
-            <guid isPermaLink="true">http://localhost:4000/thoughts/agile-status-communication/</guid>
+            <link>www.oakts.com/thoughts/agile-status-communication/</link>
+            <guid isPermaLink="true">www.oakts.com/thoughts/agile-status-communication/</guid>
             
             
         </item>
@@ -105,15 +105,15 @@ make up the agreed upon way of communicating “the plan”.&lt;/p&gt;
 &lt;p&gt;Since the infrastructure can become a series of software componets (e.g. Ansible scripts, Jenkins scripts, Docker containers, etc.) a single environment can be spun up quickly and torn down just as quickly. Refactor, and do it again. 
 Infrastructure is no longer a treasured component of the project, meticulously cared for and fed. Infrastructure becomes like cattle, not pets.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/img/cattle.jpg&quot; alt=&quot;cattle, not pets&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;www.oakts.com/assets/img/cattle.jpg&quot; alt=&quot;cattle, not pets&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;devops&quot;&gt;DevOps&lt;/h2&gt;
 
 &lt;p&gt;Through software (e.g. Amazon Cloudformation scripts) environments can be defined, applications deployed, systems monitored. This requires a new type of engineer, someone who knows infrastructure and someone who knows software. These Development Operations (DevOPs) people are the new breed of system admins – unlike the system admins of days gone by, a DevOps person is enmeshed in the software development process.&lt;/p&gt;
 </description>
             <pubDate>Sat, 24 Jun 2017 00:00:00 -0700</pubDate>
-            <link>http://localhost:4000/thoughts/legacy-revolution-part2/</link>
-            <guid isPermaLink="true">http://localhost:4000/thoughts/legacy-revolution-part2/</guid>
+            <link>www.oakts.com/thoughts/legacy-revolution-part2/</link>
+            <guid isPermaLink="true">www.oakts.com/thoughts/legacy-revolution-part2/</guid>
             
             
         </item>
@@ -161,8 +161,8 @@ With small variation, most projects have been
 ---&gt;
 </description>
             <pubDate>Tue, 24 Jan 2017 00:00:00 -0800</pubDate>
-            <link>http://localhost:4000/thoughts/legacy-revolution/</link>
-            <guid isPermaLink="true">http://localhost:4000/thoughts/legacy-revolution/</guid>
+            <link>www.oakts.com/thoughts/legacy-revolution/</link>
+            <guid isPermaLink="true">www.oakts.com/thoughts/legacy-revolution/</guid>
             
             
         </item>
@@ -232,8 +232,8 @@ b) purchase an integrated system (e.g. SAP) and pay a license and support costs 
 
 </description>
             <pubDate>Mon, 23 Jan 2017 00:00:00 -0800</pubDate>
-            <link>http://localhost:4000/thoughts/open-source-complexity/</link>
-            <guid isPermaLink="true">http://localhost:4000/thoughts/open-source-complexity/</guid>
+            <link>www.oakts.com/thoughts/open-source-complexity/</link>
+            <guid isPermaLink="true">www.oakts.com/thoughts/open-source-complexity/</guid>
             
             
         </item>
@@ -278,8 +278,8 @@ So it’s both an architecture as well as a development process.&lt;/li&gt;
 &lt;p&gt;Explore the technologies, but if I’m Joe Public-Sector development manager, I need to work on the continuous integration question first. If I can take my huge data model app and nail doing continuous integration and deployment to a cloud environment, scaling things up and down, I can claim I’m microservice enabled! I just happen to have one really big microservice!&lt;/p&gt;
 </description>
             <pubDate>Tue, 01 Nov 2016 00:00:00 -0700</pubDate>
-            <link>http://localhost:4000/thoughts/first-blog-post/</link>
-            <guid isPermaLink="true">http://localhost:4000/thoughts/first-blog-post/</guid>
+            <link>www.oakts.com/thoughts/first-blog-post/</link>
+            <guid isPermaLink="true">www.oakts.com/thoughts/first-blog-post/</guid>
             
             
         </item>
