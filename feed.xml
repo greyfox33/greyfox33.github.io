@@ -3,10 +3,10 @@
     <channel>
         <title></title>
         <description></description>
-        <link>www.oakts.com/</link>
+        <link>/</link>
         <atom:link href="www.oakts.com/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 12 Sep 2021 20:58:46 -0700</pubDate>
-        <lastBuildDate>Sun, 12 Sep 2021 20:58:46 -0700</lastBuildDate>
+        <pubDate>Sun, 12 Sep 2021 21:08:16 -0700</pubDate>
+        <lastBuildDate>Sun, 12 Sep 2021 21:08:16 -0700</lastBuildDate>
         <generator>Jekyll v3.9.0</generator>
         
         <item>
@@ -105,7 +105,7 @@ make up the agreed upon way of communicating “the plan”.&lt;/p&gt;
 &lt;p&gt;Since the infrastructure can become a series of software componets (e.g. Ansible scripts, Jenkins scripts, Docker containers, etc.) a single environment can be spun up quickly and torn down just as quickly. Refactor, and do it again. 
 Infrastructure is no longer a treasured component of the project, meticulously cared for and fed. Infrastructure becomes like cattle, not pets.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;www.oakts.com/assets/img/cattle.jpg&quot; alt=&quot;cattle, not pets&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/cattle.jpg&quot; alt=&quot;cattle, not pets&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;devops&quot;&gt;DevOps&lt;/h2&gt;
 
